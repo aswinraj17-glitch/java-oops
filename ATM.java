@@ -10,4 +10,4 @@ class ATMAccount {
 }
 public class ATM {
     public static void main(String[] args) { ATMAccount account = new ATMAccount(10000); account.withdraw(3000); account.showBalance(); }
-}
+} 
