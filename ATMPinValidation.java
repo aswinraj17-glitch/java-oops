@@ -1,6 +1,6 @@
 class PINValidator {
     private int pin = 1234; private int attempts;
-    void login(int enteredPin) {
+    void login(int enteredPin) { 
         attempts++;
         if (enteredPin == pin) System.out.println("Login successful");
         else if (attempts < 3) System.out.println("Wrong PIN");
